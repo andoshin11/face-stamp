@@ -18,17 +18,19 @@ const main = async () => {
   const userList = userRes.members.filter(user => !user.is_bot)
 
   // Filter Out registered emoji
-  const unregistered = userList.filter(user => !emojiList[user.name])
+  const unregistered = userList.filter(
+    user => !emojiList[user.name.replace(/\./, '_')]
+  )
 
   console.log(unregistered.map(user => user.profile.image_24))
-  console.log(unregistered.map(user => user.name))
+  console.log(unregistered.map(user => user.name.replace(/\./, '_')))
   try {
     const response = await emojme.add(
       [process.env.SLACK_DOMAIN!],
       [process.env.SLACK_USER_TOKEN!],
       {
         src: unregistered.map(user => user.profile.image_24),
-        name: unregistered.map(user => user.name),
+        name: unregistered.map(user => user.name.replace(/\./, '_')),
         bustCache: false,
         avoidCollisions: true,
         output: true
