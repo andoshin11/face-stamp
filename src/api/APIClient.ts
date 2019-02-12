@@ -74,8 +74,7 @@ export class APIClient implements NetworkClient {
       'Content-Type': 'application/x-www-form-urlencoded',
       xhrFields: true,
       withCredentials: true,
-      'Access-Control-Allow-Origin': '*',
-      Authorization: 'Bearer ' + process.env.SLACK_TOKEN
+      'Access-Control-Allow-Origin': '*'
     }
   }
 }

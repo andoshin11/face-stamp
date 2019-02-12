@@ -1,0 +1,28 @@
+[
+  {
+    "name": "capistrano",
+    "is_alias": 0,
+    "alias_for": null,
+    "url": "https://emoji.slack-edge.com/T4GKZD6JV/capistrano/60e26bb3dabfb2da.png",
+    "team_id": "T4GKZD6JV",
+    "user_id": "U4GK49MT2",
+    "user_display_name": "andoshin11",
+    "avatar_hash": "g5c97d6b5611",
+    "can_delete": true,
+    "is_bad": false,
+    "synonyms": null
+  },
+  {
+    "name": "trump-deal",
+    "is_alias": 0,
+    "alias_for": null,
+    "url": "https://emoji.slack-edge.com/T4GKZD6JV/trump-deal/a1ab46e52978e4d5.png",
+    "team_id": "T4GKZD6JV",
+    "user_id": "U4GK49MT2",
+    "user_display_name": "andoshin11",
+    "avatar_hash": "g5c97d6b5611",
+    "can_delete": true,
+    "is_bad": false,
+    "synonyms": null
+  }
+]

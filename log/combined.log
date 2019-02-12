@@ -1,0 +1,19 @@
+{"message":"[studio-andy] Found 2 total emoji on 1 pages","level":"info"}
+{"message":"[studio-andy] Found 2 emoji to save by andoshin11.","level":"info"}
+{"message":"[studio-andy] saved capistrano to build/studio-andy/andoshin11/capistrano.png","level":"debug"}
+{"message":"[studio-andy] saved trump-deal to build/studio-andy/andoshin11/trump-deal.png","level":"debug"}
+{"message":"Cached request is still fresh. To force a new request, delete or move ./build/studio-andy.adminList.json","level":"debug"}
+{"message":"[studio-andy] Found 2 emoji","level":"info"}
+{"message":"[studio-andy] Attempting to upload 5 emoji to studio-andy","level":"info"}
+{"message":"[studio-andy] andoshin11 uploaded successfully","level":"debug"}
+{"message":"[studio-andy] slackbot uploaded successfully","level":"debug"}
+{"message":"[studio-andy] error on memo: error_name_taken","level":"warning"}
+{"message":"[studio-andy] github2 uploaded successfully","level":"debug"}
+{"message":"[studio-andy] jarvis uploaded successfully","level":"debug"}
+{"message":"\n[studio-andy] Batch upload complete.\n  total requests: 5 \n  successes: 4 \n  errors: 1","level":"info"}
+{"message":"Cached request is still fresh. To force a new request, delete or move ./build/studio-andy.adminList.json","level":"debug"}
+{"message":"[studio-andy] Found 2 emoji","level":"info"}
+{"message":"[studio-andy] Attempting to upload 2 emoji to studio-andy","level":"info"}
+{"message":"[studio-andy] slackbot uploaded successfully","level":"debug"}
+{"message":"[studio-andy] andoshin11 uploaded successfully","level":"debug"}
+{"message":"\n[studio-andy] Batch upload complete.\n  total requests: 2 \n  successes: 2 \n  errors: 0","level":"info"}
