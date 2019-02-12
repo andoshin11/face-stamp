@@ -1,5 +1,7 @@
 # Face Stamp
 
+Face Stamp is a node script to generate emojis from you Slack Team member's profile picture and register them to the workspace.
+
 ## Requirements
 
 Create `.env` file and set your secrets.
