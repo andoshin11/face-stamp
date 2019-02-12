@@ -25,8 +25,11 @@ interface GetUserListResponse {
       display_name: string
       display_name_normalized: string
       image_24: string
+      image_48: string
+      image_72: string
     }
     is_bot: boolean
+    is_restricted: boolean
   }[]
 }
 
