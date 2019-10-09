@@ -9,5 +9,13 @@ declare module 'emojme' {
       avoidCollisions: boolean
       output: boolean
     }
-  ): Promise<any>
+  ): Promise<{ [organization: string]: {
+    emojiList: Array<{
+      is_alias: number
+      url: string
+      name: string
+    }>
+    errorList: any[]
+    collisions: any[]
+  }}>
 }
